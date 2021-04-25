@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "ferrismod",
+  "version": "${version}",
+
+  "name": "FerrisMod",
+  "description": "PopFerris",
+  "authors": [
+    "Nep Nep#3025/Lolicon2110"
+  ],
+  "contact": {
+    "sources": "https://github.com/Lolicon2110/FerrisMod"
+  },
+
+  "icon": "assets/ferrismod/icon.png",
+
+  "license": "MIT",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.nepnep.ferrismod.FerrisMod"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": ">=0.31.0+1.16",
+    "minecraft": "1.16.x"
+  }
+}
